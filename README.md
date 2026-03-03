@@ -15,7 +15,7 @@ Features derived from the segmented images used include: area of braces and perc
 - Decision Tree
 - k-Nearest Neighbors (KNN)
 - Support Vector Machine (SVM)
-- Ensemble Models
+- Ensemble Model
 
 ### Performance
 Model performance is evaluated using:
