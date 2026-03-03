@@ -1,7 +1,7 @@
-# U-Net Segmentation and Classification for predicting braces
+# U-Net Segmentation and Classification for Predicting Fixed Orthodontics Appliances (FOAs)
 
 ## Overview
-This project explores the use of deep learning and machine learning methods to detect and classify orthodontic braces from dental radiograph images. The workflow includes using a U-Net architecture for image segmentation followed by downstream classification models with selected extracted features.
+This project explores the use of deep learning and machine learning methods to detect and classify FOAs from dental radiograph images. The workflow includes using a U-Net architecture for image segmentation followed by downstream classification models with selected extracted features.
 
 ## Methods
 
@@ -9,7 +9,7 @@ This project explores the use of deep learning and machine learning methods to d
 A U-Net convolutional neural network is used to segment dental images. The model learns pixel-level masks identifying relevant orthodontic regions. The segmentation outputs are then used for visualization and feature extraction. 
 
 ### Classification Models
-Features derived from the segmented images used include: area of braces and percentage of braces area. The models used include: 
+Features derived from the segmented images used include: area of braces and percentage of FOAs area. The models used include: 
 - Logistic Regression
 - Random Forest
 - Decision Tree
@@ -29,5 +29,5 @@ Due to size and privacy constraints, datasets are not stored in this repository.
 
 To reproduce the results:
 - Use your local dataset directory
-- Update paths inside the notebooks accordingly
+- Update paths inside the scripts accordingly
 
