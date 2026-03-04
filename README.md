@@ -9,7 +9,7 @@ This project explores the use of deep learning and machine learning methods to d
 A U-Net convolutional neural network is used to segment dental images. The model learns pixel-level masks identifying relevant orthodontic regions. The segmentation outputs are then used for visualization and feature extraction. 
 
 ### Classification Models
-Features derived from the segmented images used include: area of braces and percentage of FOAs area. The models used include: 
+Features derived from the segmented images used include: area of FOAs and percentage of FOAs area. The models used include: 
 - Logistic Regression
 - Random Forest
 - Decision Tree
